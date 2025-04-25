@@ -1,0 +1,21 @@
+{
+  "name": "node-hono",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@eidolon-labs/player-sdk": "^0.4.0",
+    "@hono/node-server": "^1.14.1",
+    "dotenv": "^16.5.0",
+    "hono": "^4.7.7",
+    "viem": "^2.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
